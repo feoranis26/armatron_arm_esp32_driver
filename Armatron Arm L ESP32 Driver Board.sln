@@ -1,0 +1,67 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Armatron Arm L ESP32 Driver Board", "Armatron Arm L ESP32 Driver Board\Armatron Arm L ESP32 Driver Board.vcxproj", "{C5F80730-F44F-4478-BDAE-6634EFC2CA88}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ESP-FlexyStepper-1.4.5", "Libraries\ESP-FlexyStepper\1.4.5\ESP-FlexyStepper\ESP-FlexyStepper-1.4.5.vcxitems", "{ABF11B61-3F32-4543-A0A6-3CB4F1CCF645}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ArduinoJson-6.19.1", "Libraries\ArduinoJson\6.19.1\ArduinoJson\ArduinoJson-6.19.1.vcxitems", "{F35727F4-8735-40C0-B886-360C8C684D79}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LittleFS-2.0.0", "Libraries\LittleFS\2.0.0\LittleFS\LittleFS-2.0.0.vcxitems", "{653DD6A3-8FC6-44C6-A673-CDAD544A183A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FS-2.0.0", "Libraries\FS\2.0.0\FS\FS-2.0.0.vcxitems", "{FB128457-B72A-4FB0-9CB7-744CEBC3BEAB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AsyncTCP-master-1.1.1", "Libraries\AsyncTCP-master\1.1.1\AsyncTCP-master\AsyncTCP-master-1.1.1.vcxitems", "{161A395A-0CE9-4C37-B249-6CE0AD43FF40}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ESPAsyncWebServer-master-1.2.3", "Libraries\ESPAsyncWebServer-master\1.2.3\ESPAsyncWebServer-master\ESPAsyncWebServer-master-1.2.3.vcxitems", "{4AE1007F-86F9-4F65-9551-AC80B01C248E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CircularBuffer-1.3.3", "Libraries\CircularBuffer\1.3.3\CircularBuffer\CircularBuffer-1.3.3.vcxitems", "{DA3F39D5-A601-4134-997B-C7F0B8D7B362}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ESP32-ENC28J60-1.0.1", "Libraries\ESP32-ENC28J60\1.0.1\ESP32-ENC28J60\ESP32-ENC28J60-1.0.1.vcxitems", "{292C0D26-2BCC-455C-9945-FAE4B23FD6FC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AsyncWebServer_ESP32_ENC-1.6.3", "Libraries\AsyncWebServer_ESP32_ENC\1.6.3\AsyncWebServer_ESP32_ENC\AsyncWebServer_ESP32_ENC-1.6.3.vcxitems", "{9A5D29B9-FAC4-42E6-A7C2-2AA010E05B22}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ESPmDNS-2.0.0", "Libraries\ESPmDNS\2.0.0\ESPmDNS\ESPmDNS-2.0.0.vcxitems", "{C5D466A6-5448-40FE-83AD-5EBB2B3E790C}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Libraries\AsyncTCP-master\1.1.1\AsyncTCP-master\AsyncTCP-master-1.1.1.vcxitems*{161a395a-0ce9-4c37-b249-6ce0ad43ff40}*SharedItemsImports = 9
+		Libraries\ESP32-ENC28J60\1.0.1\ESP32-ENC28J60\ESP32-ENC28J60-1.0.1.vcxitems*{292c0d26-2bcc-455c-9945-fae4b23fd6fc}*SharedItemsImports = 9
+		Libraries\ESPAsyncWebServer-master\1.2.3\ESPAsyncWebServer-master\ESPAsyncWebServer-master-1.2.3.vcxitems*{4ae1007f-86f9-4f65-9551-ac80b01c248e}*SharedItemsImports = 9
+		Libraries\LittleFS\2.0.0\LittleFS\LittleFS-2.0.0.vcxitems*{653dd6a3-8fc6-44c6-a673-cdad544a183a}*SharedItemsImports = 9
+		Libraries\AsyncWebServer_ESP32_ENC\1.6.3\AsyncWebServer_ESP32_ENC\AsyncWebServer_ESP32_ENC-1.6.3.vcxitems*{9a5d29b9-fac4-42e6-a7c2-2aa010e05b22}*SharedItemsImports = 9
+		Libraries\ESP-FlexyStepper\1.4.5\ESP-FlexyStepper\ESP-FlexyStepper-1.4.5.vcxitems*{abf11b61-3f32-4543-a0a6-3cb4f1ccf645}*SharedItemsImports = 9
+		Libraries\ESPmDNS\2.0.0\ESPmDNS\ESPmDNS-2.0.0.vcxitems*{c5d466a6-5448-40fe-83ad-5ebb2b3e790c}*SharedItemsImports = 9
+		Libraries\ArduinoJson\6.19.1\ArduinoJson\ArduinoJson-6.19.1.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		Libraries\AsyncTCP-master\1.1.1\AsyncTCP-master\AsyncTCP-master-1.1.1.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		Libraries\AsyncWebServer_ESP32_ENC\1.6.3\AsyncWebServer_ESP32_ENC\AsyncWebServer_ESP32_ENC-1.6.3.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		Libraries\CircularBuffer\1.3.3\CircularBuffer\CircularBuffer-1.3.3.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		Libraries\ESP-FlexyStepper\1.4.5\ESP-FlexyStepper\ESP-FlexyStepper-1.4.5.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		Libraries\ESPmDNS\2.0.0\ESPmDNS\ESPmDNS-2.0.0.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		Libraries\FS\2.0.0\FS\FS-2.0.0.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		Libraries\LittleFS\2.0.0\LittleFS\LittleFS-2.0.0.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		Libraries\CircularBuffer\1.3.3\CircularBuffer\CircularBuffer-1.3.3.vcxitems*{da3f39d5-a601-4134-997b-c7f0b8d7b362}*SharedItemsImports = 9
+		Libraries\ArduinoJson\6.19.1\ArduinoJson\ArduinoJson-6.19.1.vcxitems*{f35727f4-8735-40c0-b886-360c8c684d79}*SharedItemsImports = 9
+		Libraries\FS\2.0.0\FS\FS-2.0.0.vcxitems*{fb128457-b72a-4fb0-9cb7-744cebc3beab}*SharedItemsImports = 9
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Release|ARM = Release|ARM
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Debug|ARM.ActiveCfg = Debug|ARM
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Debug|ARM.Deploy.0 = ARM
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Debug|ARM.Build.0 = Debug|ARM
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Release|ARM.ActiveCfg = Release|ARM
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Release|ARM.Deploy.0 = ARM
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Release|ARM.Build.0 = Release|ARM
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C868F485-5130-4B11-B76B-40EFDCEAFBAA}
+	EndGlobalSection
+EndGlobal

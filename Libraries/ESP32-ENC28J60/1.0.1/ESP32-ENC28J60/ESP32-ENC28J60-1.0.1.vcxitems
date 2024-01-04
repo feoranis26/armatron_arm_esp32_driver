@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding ="utf-8" ?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" >
+  <PropertyGroup Label="Globals" >
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{292c0d26-2bcc-455c-9945-fae4b23fd6fc}</ItemsProjectGuid>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\ESP32-ENC28J60.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\extmod\esp_eth_mac_enc28j60.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\extmod\esp_eth_phy_enc28j60.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\extmod\esp_eth_spi_enc28j60.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\ESP32-ENC28J60.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\extmod\enc28j60.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\extmod\esp_eth_enc28j60.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="$(MSBuildThisFileDirectory)library.properties" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)license" />
+<None Include="$(MSBuildThisFileDirectory)README.md" />
+  </ItemGroup>
+</Project>

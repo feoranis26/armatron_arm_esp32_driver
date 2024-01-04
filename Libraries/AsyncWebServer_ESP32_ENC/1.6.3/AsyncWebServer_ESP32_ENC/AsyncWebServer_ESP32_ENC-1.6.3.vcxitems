@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding ="utf-8" ?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" >
+  <PropertyGroup Label="Globals" >
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{9a5d29b9-fac4-42e6-a7c2-2aa010e05b22}</ItemsProjectGuid>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\AsyncEventSource.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\AsyncWebServer_ESP32_ENC.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\AsyncWebSocket.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\ESP32_ENC_SPIFFSEditor.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\WebAuthentication.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\WebHandlers.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\WebRequest.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\WebResponses.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\WebServer.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\Crypto\Hash.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\Crypto\sha1.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\enc28j60\esp32_enc28j60.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\enc28j60\extmod\esp_eth_mac_enc28j60.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\enc28j60\extmod\esp_eth_phy_enc28j60.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\enc28j60\extmod\esp_eth_spi_enc28j60.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\libb64\cdecode.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\libb64\cencode.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\AsyncEventSource.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\AsyncJson.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\AsyncWebServer_ESP32_ENC.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\AsyncWebServer_ESP32_ENC_Debug.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\AsyncWebSocket.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\AsyncWebSynchronization.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\ESP32_ENC_SPIFFSEditor.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\StringArray.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\WebAuthentication.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\WebHandlerImpl.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\WebResponseImpl.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\Crypto\bearssl_hash.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\Crypto\Hash.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\Crypto\md5.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\Crypto\sha1.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\enc28j60\esp32_enc28j60.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\enc28j60\extmod\enc28j60.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\enc28j60\extmod\esp_eth_enc28j60.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\libb64\cdecode.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\libb64\cencode.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="$(MSBuildThisFileDirectory)keywords.txt" />
+<Text Include="$(MSBuildThisFileDirectory)library.properties" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)changelog.md" />
+<None Include="$(MSBuildThisFileDirectory)CONTRIBUTING.md" />
+<None Include="$(MSBuildThisFileDirectory)library.json" />
+<None Include="$(MSBuildThisFileDirectory)LICENSE" />
+<None Include="$(MSBuildThisFileDirectory)README.md" />
+<None Include="$(MSBuildThisFileDirectory)src\edit.htm" />
+  </ItemGroup>
+</Project>

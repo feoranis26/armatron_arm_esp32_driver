@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding ="utf-8" ?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" >
+  <PropertyGroup Label="Globals" >
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{4ae1007f-86f9-4f65-9551-ac80b01c248e}</ItemsProjectGuid>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\AsyncEventSource.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\AsyncWebSocket.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\SPIFFSEditor.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\WebAuthentication.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\WebHandlers.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\WebRequest.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\WebResponses.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\WebServer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\AsyncEventSource.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\AsyncJson.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\AsyncWebSocket.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\AsyncWebSynchronization.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\ESPAsyncWebServer.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\SPIFFSEditor.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\StringArray.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\WebAuthentication.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\WebHandlerImpl.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\WebResponseImpl.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="$(MSBuildThisFileDirectory)CMakeLists.txt" />
+<Text Include="$(MSBuildThisFileDirectory)keywords.txt" />
+<Text Include="$(MSBuildThisFileDirectory)library.properties" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)component.mk" />
+<None Include="$(MSBuildThisFileDirectory)library.json" />
+<None Include="$(MSBuildThisFileDirectory)README.md" />
+<None Include="$(MSBuildThisFileDirectory)_config.yml" />
+<None Include="$(MSBuildThisFileDirectory)src\edit.htm" />
+  </ItemGroup>
+</Project>
